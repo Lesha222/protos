@@ -27,7 +27,7 @@ message LoginRequest {
 }
 
 message LoginResponse {
-    int64 sessionId = 1;
+    string Token = 1;
 }
 
 message AdminRequest {
